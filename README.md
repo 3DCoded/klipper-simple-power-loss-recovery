@@ -30,4 +30,4 @@ Add the following to your slicer's after layer change G-Code (this syntax is for
 UPDATE_Z Z=[layer_z]
 ```
 
-If anyone finds this helpful or has ideas to improve it, please let me know [here](https://klipper.discourse.group/t/simple-power-loss-recovery/15534).
+If anyone finds this helpful or has ideas to improve it, please let me know [here](https://klipper.discourse.group/t/simple-power-loss-recovery/15534/1).
