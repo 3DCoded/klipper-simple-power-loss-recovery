@@ -1,5 +1,9 @@
 # Simple Klipper Power Loss Recovery
 
+# NOT ACTIVELY MAINTAINED
+
+## I'm currently working on several of my other projects, which means I unfortunately don't have the bandwidth to actively maintiain this project.
+
 I am currently working on a more complex approach of [Power Loss Recovery](https://klipper.discourse.group/t/wip-power-loss-recovery/14478), but while working on that, I made this simple power loss recovery script in Python, that can recover any print by the last recorded Z height. It works as follows:
 1. Slicer's start G-Code ends with `; POWER_PANIC_PRESERVE`
 2. Slicer's layer change G-Code will invoke `UPDATE_Z Z=` to set the z height
